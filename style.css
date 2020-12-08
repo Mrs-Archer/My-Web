@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 50px;
+  background-color: rgb(250, 174, 61);
+}
+
+.navigation-bar {
+  display: flex;
+  list-style-type: none;
+  display: flex;
+  color: rgb(65, 57, 57);
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+}
+.navigation-bar > li {
+  display: flex;
+  padding: 10px 80px;
+  list-style-type: none;
+  margin: auto;
+}
