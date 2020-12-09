@@ -23,3 +23,10 @@ header {
   list-style-type: none;
   margin: auto;
 }
+
+section {
+  display: column;
+  min-height: calc(100vh - 100px);
+  background-image: url("Images/Background.jpg");
+  background-size: cover;
+}
