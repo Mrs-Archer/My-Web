@@ -14,8 +14,8 @@ header {
   display: flex;
   color: rgb(65, 57, 57);
   font-size: 30px;
-  font-family: "Roboto Slab", serif;
-  font-weight: 700;
+  font-family: "Cabin Sketch", cursive;
+  font-family: "Shrikhand", cursive;
 }
 .navigation-bar > li {
   display: flex;
@@ -33,16 +33,21 @@ section {
 
 .home-page-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .name {
-  display: column;
+  color: orange;
+  font-family: "Berkshire Swash", cursive;
+  font-family: "Shrikhand", cursive;
+  font-size: 100px;
 }
 .home-image {
-  width: 950px;
-  height: 720px;
-  margin: auto;
+  width: 750px;
+  height: 520px;
   background-image: url("Images/home-image.jpg");
   background-size: cover;
 }
