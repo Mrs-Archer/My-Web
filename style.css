@@ -10,8 +10,6 @@ header {
 
 .navigation-bar {
   display: flex;
-  list-style-type: none;
-  display: flex;
   color: rgb(65, 57, 57);
   font-size: 30px;
   font-family: "Cabin Sketch", cursive;
