@@ -22,6 +22,14 @@ header {
   margin: auto;
 }
 
+.nav a {
+  color: rgb(65, 57, 57);
+  font-size: 30px;
+  font-family: "Cabin Sketch", cursive;
+  font-family: "Shrikhand", cursive;
+  text-decoration: none;
+}
+
 section {
   display: flex;
   min-height: calc(100vh - 100px);
