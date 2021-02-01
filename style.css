@@ -18,9 +18,14 @@ header {
 
 .navigation-bar > li {
   display: flex;
-  padding: 10px 80px;
+  padding: 40px, 80px;
   list-style-type: none;
   margin: auto;
+}
+
+a.active,
+a:hover {
+  color: aliceblue;
 }
 
 .nav a {
