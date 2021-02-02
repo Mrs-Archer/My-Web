@@ -23,6 +23,9 @@ header {
   margin: auto;
 }
 
+.navigation-bar li a {
+  border-bottom: none;
+}
 a.active,
 a:hover {
   color: aliceblue;
@@ -33,6 +36,7 @@ a:hover {
   font-size: 30px;
   font-family: "Shrikhand", cursive;
   text-decoration: none;
+  border-bottom: none;
 }
 
 section {
