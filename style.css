@@ -5,8 +5,7 @@
 
 header {
   height: 50px;
-  background-color: rgb(250, 174, 61);
-  opacity: 0.5;
+  background-color: rgba(250, 174, 61, 0.5);
 }
 
 .navigation-bar {
@@ -23,12 +22,9 @@ header {
   margin: auto;
 }
 
-.navigation-bar li a {
-  border-bottom: none;
-}
-a.active,
 a:hover {
-  color: aliceblue;
+  color: rgb(63, 1, 63);
+  border-bottom: none;
 }
 
 .nav a {
@@ -36,7 +32,6 @@ a:hover {
   font-size: 30px;
   font-family: "Shrikhand", cursive;
   text-decoration: none;
-  border-bottom: none;
 }
 
 section {
