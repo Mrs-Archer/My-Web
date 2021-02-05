@@ -75,37 +75,35 @@ footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   align-items: left;
-  width: 40%;
-  margin-left: 100px;
-  margin-top: 80px;
+  
 }
 
-.about-name {
+.about-header {
   color: orange;
   font-family: "Berkshire Swash", cursive;
   font-family: "Shrikhand", cursive;
   font-size: 60px;
   opacity: 0.7;
   justify-content: center;
+  flex-direction: row;
+  
 }
 
 .about-image {
   width: 400px;
   height: 550px;
-  margin-top: 100px;
-  margin-left: 50px;
   background-image: url("Images/Me.jpg");
   background-size: cover;
   border-radius: 10%;
   opacity: 0.9;
 }
 
-.about-text {
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: orange;
   font-size: 50px;
-  margin: 50px;
-  width: 60%;
-  margin-top: 100px;
-}
+  
