@@ -71,13 +71,11 @@ footer {
   background-color: rgb(250, 174, 61);
 }
 
-.about-container {
+.about-main-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: left;
-  
+  align-items: center;
+  width: 100%;
 }
 
 .about-header {
@@ -87,10 +85,15 @@ footer {
   font-size: 60px;
   opacity: 0.7;
   justify-content: center;
-  flex-direction: row;
-  
+  margin-top: 50px;
 }
 
+.image-text-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 80px;
+}
 .about-image {
   width: 400px;
   height: 550px;
@@ -100,10 +103,24 @@ footer {
   opacity: 0.9;
 }
 
-.about-text-container {
-  display: flex;
-  flex-direction: column;
+.about-text {
+  width: 400px;
+  height: 550px;
   justify-content: center;
   color: orange;
   font-size: 50px;
-  
+}
+.game .gazelle {
+  position: absolute;
+  top: 260px;
+  left: 231px;
+  z-index: 1;
+  transition-duration: 100ms;
+  transition-delay: 0.75s;
+  transition-property: max-height;
+  max-height: 50px;
+}
+
+.game .gazelle:hover {
+  max-height: 180px;
+}
