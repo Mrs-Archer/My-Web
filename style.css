@@ -100,7 +100,13 @@ footer {
   background-image: url("Images/Me.jpg");
   background-size: cover;
   border-radius: 10%;
-  opacity: 0.9;
+  opacity: 0.8;
+}
+
+.about-image:hover {
+  opacity: 1;
+  transition-property: max-height;
+  max-height: 7000px;
 }
 
 .about-text {
