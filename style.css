@@ -5,7 +5,7 @@
 
 header {
   height: 50px;
-  background-color: rgba(240, 216, 181, 0.5);
+  background-color: white;
 }
 
 .navigation-bar {
@@ -17,7 +17,6 @@ header {
 
 .navigation-bar > li {
   display: flex;
-
   font-size: 20px;
   color: rgb(65, 57, 57);
   font-family: "Shrikhand", cursive;
@@ -35,33 +34,29 @@ a:hover {
 section {
   display: flex;
   min-height: calc(100vh - 100px);
-  background-image: url("Images/background-board.jpg");
-  background-size: cover;
 }
 
 .home-page-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
   width: 100%;
+  margin-top: 80px;
 }
 
-.home-name {
-  color: orange;
-  font-family: "Berkshire Swash", cursive;
-  font-family: "Shrikhand", cursive;
-  font-size: 60px;
-  opacity: 0.7;
-}
-.home-image {
-  width: 750px;
-  height: 520px;
-  margin-top: 50px;
-  background-image: url("Images/home-image.jpg");
+.home-text-box {
+  display: flex;
+  width: 600px;
+  height: 800px;
+  background-color: peachpuff;
   background-size: cover;
-  border-radius: 90%;
-  opacity: 0.7;
+  border-radius: 3%;
+}
+.home-image-box {
+  display: flex;
+  width: 600px;
+  height: 800px;
+  background-color: rgb(247, 199, 157);
+  border-radius: 3%;
 }
 
 footer {
@@ -111,18 +106,4 @@ footer {
   justify-content: center;
   color: orange;
   font-size: 50px;
-}
-.game .gazelle {
-  position: absolute;
-  top: 260px;
-  left: 231px;
-  z-index: 1;
-  transition-duration: 100ms;
-  transition-delay: 0.75s;
-  transition-property: max-height;
-  max-height: 50px;
-}
-
-.game .gazelle:hover {
-  max-height: 180px;
 }
