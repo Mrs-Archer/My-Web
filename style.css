@@ -45,23 +45,26 @@ section {
 
 .home-text-box {
   display: flex;
-  width: 600px;
-  height: 800px;
+  width: 700px;
+  height: 980px;
   background-color: peachpuff;
   background-size: cover;
-  border-radius: 3%;
+  margin-top: -130px;
+  position: absolute;
 }
 .home-image-box {
   display: flex;
-  width: 600px;
-  height: 800px;
+  width: 1400px;
+  height: 900px;
   background-color: rgb(247, 199, 157);
-  border-radius: 3%;
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -50px;
 }
 
 footer {
   height: 50px;
-  background-color: rgb(250, 174, 61);
+  background-color: white;
 }
 
 .about-main-container {
