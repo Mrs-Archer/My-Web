@@ -12,28 +12,30 @@ header {
   display: flex;
   float: right;
   text-decoration: none;
-  margin-right: 50px;
+  margin-right: 130px;
 }
 
 .navigation-bar > li {
   display: flex;
-  font-size: 20px;
-  color: rgb(65, 57, 57);
-  font-family: "Shrikhand", cursive;
-  margin: 10px;
+  margin: 20px;
+  margin-right: 20px;
 }
 
 a:hover {
   color: rgb(63, 1, 63);
-  border-bottom: none;
 }
 
-.nav a {
+.navigation-bar > li > a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Shrikhand", cursive;
 }
 
 section {
   display: flex;
   min-height: calc(100vh - 100px);
+  width: 100%;
 }
 
 .home-page-container {
@@ -41,6 +43,7 @@ section {
   justify-content: left;
   width: 100%;
   margin-top: 80px;
+  position: relative;
 }
 
 .home-text-box {
@@ -51,10 +54,39 @@ section {
   background-size: cover;
   margin-top: -130px;
   position: absolute;
+  align-items: center;
 }
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+}
+
+.home-text > li {
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+
+.greeting {
+  font-family: "Racing Sans One", cursive;
+  font-size: 60px;
+}
+
+.name-line {
+  display: flex;
+}
+
+.name-start {
+}
+
+.name-end {
+  margin-left: 8px;
+}
+
 .home-image-box {
   display: flex;
-  width: 1400px;
+  width: 1500px;
   height: 900px;
   background-color: rgb(247, 199, 157);
   position: absolute;
@@ -90,6 +122,7 @@ footer {
   width: 100%;
   margin-top: 80px;
 }
+
 .about-image {
   width: 400px;
   height: 550px;
