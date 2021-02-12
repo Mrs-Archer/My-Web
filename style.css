@@ -61,16 +61,18 @@ section {
   display: flex;
   flex-direction: column;
   margin-left: 400px;
+  z-index: 100;
 }
 
 .home-text > li {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   list-style-type: none;
 }
 
 .greeting {
   font-family: "Racing Sans One", cursive;
   font-size: 60px;
+  margin-left: 30px;
 }
 
 .name-line {
@@ -78,10 +80,18 @@ section {
 }
 
 .name-start {
+  margin-top: 8px;
+  color: rgb(95, 93, 93);
 }
 
 .name-end {
   margin-left: 8px;
+  font-size: 30px;
+  font-family: "Racing Sans One", cursive;
+}
+
+.ocupation {
+  color: rgb(95, 93, 93);
 }
 
 .home-image-box {
