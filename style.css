@@ -92,6 +92,8 @@ section {
 
 .ocupation {
   color: rgb(95, 93, 93);
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .home-image-box {
@@ -102,6 +104,17 @@ section {
   position: absolute;
   margin-left: 600px;
   margin-top: -50px;
+}
+
+.home-image {
+  background-image: url("Images/home-image.jpg");
+  width: 700px;
+  height: 570px;
+  background-size: cover;
+  text-align: center;
+  margin: auto;
+  opacity: 0.8;
+  border-radius: 50%;
 }
 
 footer {
