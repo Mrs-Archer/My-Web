@@ -73,13 +73,13 @@ section {
 }
 
 .name-start {
-  padding-top: 17px;
+  padding-top: 8px;
   color: rgb(72 72 70);
   font-size: px;
 }
 
 .name-end {
-  font-size: 40px;
+  font-size: 30px;
   font-family: "Racing Sans One", cursive;
   color: #22263f;
   margin-left: 10px;
@@ -143,6 +143,7 @@ footer {
 h3 {
   font-family: "Sacramento", cursive;
   font-size: 50px;
+  color: #22263f;
   background-color: white;
   width: 10%;
   position: absolute;
@@ -158,12 +159,13 @@ h3 {
 }
 
 .about-image {
-  width: 400px;
-  height: 550px;
+  width: 10%;
+  height: 50%;
   background-image: url("Images/Me.jpg");
   background-size: cover;
   border-radius: 10%;
   opacity: 0.8;
+  border: 5px solid rgb(255, 203, 157);
 }
 
 .about-image:hover {
@@ -174,6 +176,6 @@ h3 {
   width: 400px;
   height: 550px;
   justify-content: center;
-  color: orange;
-  font-size: 50px;
+  color: #22263f;
+  font-size: 0px;
 }
