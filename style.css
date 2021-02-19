@@ -75,7 +75,8 @@ section {
 .name-start {
   padding-top: 8px;
   color: rgb(72 72 70);
-  font-size: px;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .name-end {
@@ -85,10 +86,17 @@ section {
   margin-left: 10px;
 }
 
-.ocupation {
+.ocupation-star {
   color: rgb(72 72 70);
   font-size: 25px;
   font-weight: 700;
+}
+
+.ocupation-end {
+  color: #22263f;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "Racing Sans One", cursive;
 }
 
 .home-image-box {
@@ -177,5 +185,5 @@ h3 {
   height: 550px;
   justify-content: center;
   color: #22263f;
-  font-size: 0px;
+  font-size: 20px;
 }
