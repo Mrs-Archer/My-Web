@@ -86,17 +86,25 @@ section {
   margin-left: 10px;
 }
 
-.ocupation-star {
+.ocupation-start {
   color: rgb(72 72 70);
   font-size: 25px;
   font-weight: 700;
 }
 
+.ocupation-mid {
+  color: #22263f;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "Racing Sans One", cursive;
+  margin-left: 10px;
+}
 .ocupation-end {
   color: #22263f;
   font-size: 45px;
   font-weight: 700;
   font-family: "Racing Sans One", cursive;
+  margin-left: 50px;
 }
 
 .home-image-box {
