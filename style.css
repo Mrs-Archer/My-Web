@@ -151,7 +151,7 @@ footer {
   position: relative;
 }
 
-h3 {
+h1 {
   font-family: "Sacramento", cursive;
   font-size: 50px;
   color: #22263f;
@@ -159,7 +159,7 @@ h3 {
   width: 10%;
   position: absolute;
   margin-left: 300px;
-  margin-top: -20px;
+  margin-top: 20px;
 }
 
 .image-text-container {
