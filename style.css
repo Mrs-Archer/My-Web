@@ -167,17 +167,35 @@ h1 {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding-top: 150px;
+  height: 350px;
+  padding-top: 100px;
+  align-content: center;
 }
 
 .about-me-image {
-  width: 10%;
-  height: 50%;
+  width: 250px;
+  height: 350px;
   background-image: url("Images/Me.jpg");
   background-size: cover;
   border-radius: 10%;
   opacity: 0.8;
   border: 5px solid rgb(255, 203, 157);
+}
+
+.about-text {
+  width: 400px;
+  height: 550px;
+  justify-content: center;
+  color: #22263f;
+  font-size: 20px;
+}
+
+.image-text-container-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 100px;
+  align-content: center;
 }
 
 .about-hobbi-image {
@@ -190,17 +208,10 @@ h1 {
   border: 5px solid rgb(255, 203, 157);
 }
 
-.about-image:hover {
-  opacity: 1;
-}
-
-.about-text {
+.about-hobbi-text {
   width: 400px;
   height: 550px;
   justify-content: center;
   color: #22263f;
   font-size: 20px;
-}
-
-.about-hobbi-text {
 }
