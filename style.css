@@ -218,6 +218,12 @@ h1 {
 
 .icon-container {
   display: flex;
+  height: 100px;
   justify-content: space-around;
-  display: block;
+}
+
+.fa-user-graduate {
+  padding-top: 40px;
+  color: #22263f;
+  font-size: 50px;
 }
