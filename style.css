@@ -220,10 +220,20 @@ h1 {
   display: flex;
   height: 100px;
   justify-content: space-around;
+  padding-top: 80px;
 }
 
 .fa-user-graduate {
-  padding-top: 40px;
+  color: #22263f;
+  font-size: 50px;
+}
+
+.fa-laptop-code {
+  color: #22263f;
+  font-size: 50px;
+}
+
+.fa-icons {
   color: #22263f;
   font-size: 50px;
 }
