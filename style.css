@@ -226,6 +226,7 @@ h1 {
 .fa-user-graduate {
   color: #22263f;
   font-size: 50px;
+  margin-left: 20px;
 }
 
 .fa-laptop-code {
@@ -234,6 +235,15 @@ h1 {
 }
 
 .fa-icons {
+  color: #22263f;
+  font-size: 50px;
+}
+
+i:hover {
+  color: aliceblue;
+}
+
+.icon {
   color: #22263f;
   font-size: 50px;
 }
