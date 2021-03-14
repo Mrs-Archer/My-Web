@@ -202,7 +202,7 @@ h1 {
   border-radius: 10%;
   opacity: 0.9;
   border: 7px solid rgb(255, 203, 157);
-  margin-right: 150px;
+  margin-right: 100px;
 }
 
 .about-hobbi-text {
@@ -219,29 +219,26 @@ h1 {
 .icon-container {
   display: flex;
   height: 100px;
-  justify-content: space-around;
   padding-top: 80px;
+  justify-content: center;
 }
 
-.fa-user-graduate {
+.fas {
   color: #22263f;
   font-size: 50px;
-  margin-left: 20px;
-}
-
-.fa-laptop-code {
-  color: #22263f;
-  font-size: 50px;
-}
-
-.fa-icons {
-  color: #22263f;
-  font-size: 50px;
+  justify-content: center;
+  border: 2px;
+  border-color: rgb(255, 203, 157);
 }
 
 i:hover {
-  color: aliceblue;
+  color: rgb(255, 203, 157);
 }
 
-.icon {
+.fa-user-graduate {
+  margin-right: 100px;
+}
+
+.fa-icons {
+  margin-left: 100px;
 }
