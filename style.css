@@ -166,8 +166,8 @@ h1 {
 }
 
 .about-me-image {
-  width: 250px;
-  height: 350px;
+  width: 200px;
+  height: 300px;
   background-image: url("Images/Me.jpg");
   background-size: cover;
   border-radius: 10%;
@@ -177,7 +177,7 @@ h1 {
 
 .about-text {
   width: 600px;
-  height: 550px;
+  height: 200px;
   justify-content: center;
   color: #22263f;
   font-size: 40px;
@@ -218,8 +218,7 @@ h1 {
 
 .icon-container {
   display: flex;
-  height: 100px;
-  padding-top: 80px;
+  padding-top: 60px;
   justify-content: center;
 }
 
@@ -228,13 +227,18 @@ h1 {
   font-size: 50px;
   justify-content: center;
   border: 2px;
-  border-color: rgb(255, 203, 157);
+  border-color:  #22263f;
   background-size: 500px 500px;
-  background-color: aqua;
+  background-color:rgb(255, 203, 157);
+  border-width: 5px;
+  border-style: solid;
+  border-image: initial;
+  border-radius: 50% 50% 50% 50%; 
+  padding: 0.8% 0.8% 0.8% 0.8%; 
 }
 
 i:hover {
-  color: rgb(255, 203, 157);
+
 }
 
 .fa-user-graduate {
