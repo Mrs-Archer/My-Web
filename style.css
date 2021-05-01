@@ -227,18 +227,17 @@ h1 {
   font-size: 50px;
   justify-content: center;
   border: 2px;
-  border-color:  #22263f;
+  border-color: #22263f;
   background-size: 500px 500px;
-  background-color:rgb(255, 203, 157);
+  background-color: rgb(255, 203, 157);
   border-width: 5px;
   border-style: solid;
   border-image: initial;
-  border-radius: 50% 50% 50% 50%; 
-  padding: 0.8% 0.8% 0.8% 0.8%; 
+  border-radius: 50% 50% 50% 50%;
+  padding: 0.8% 0.8% 0.8% 0.8%;
 }
 
 i:hover {
-
 }
 
 .fa-user-graduate {
@@ -247,4 +246,14 @@ i:hover {
 
 .fa-icons {
   margin-left: 100px;
+}
+
+.contact-header {
+  display: flex;
+  padding-top: 150px;
+  justify-content: center;
+  font-family: "Racing Sans One", cursive;
+  font-size: 60px;
+  margin-left: 70px;
+  color: #22263f;
 }
