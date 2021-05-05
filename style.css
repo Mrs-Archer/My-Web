@@ -257,3 +257,7 @@ i:hover {
   margin-left: 70px;
   color: #22263f;
 }
+
+.contact-container {
+  display: flex;
+}
