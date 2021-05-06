@@ -237,9 +237,6 @@ h1 {
   padding: 0.8% 0.8% 0.8% 0.8%;
 }
 
-i:hover {
-}
-
 .fa-user-graduate {
   margin-right: 100px;
 }
@@ -260,4 +257,31 @@ i:hover {
 
 .contact-container {
   display: flex;
+}
+
+.container-1 {
+  width: 100px;
+  height: 250px;
+  display: grid;
+}
+
+.fab {
+  color: #22263f;
+  font-size: 50px;
+  justify-content: center;
+  border: 2px;
+  border-color: #22263f;
+  background-size: 500px 500px;
+  background-color: rgb(255, 203, 157);
+  border-width: 5px;
+  border-style: solid;
+  border-image: initial;
+  border-radius: 50% 50% 50% 50%;
+  padding: 0.8% 0.8% 0.8% 0.8%;
+}
+
+.container-2 {
+}
+
+.container-3 {
 }
