@@ -281,7 +281,18 @@ h1 {
 }
 
 .container-2 {
+  width: 300px;
+  border: 2px;
+  border-color: #22263f;
+  border-style: solid;
+  border-image: initial;
+  background-color: rgb(255, 203, 157);
 }
 
 .container-3 {
+  width: 500px;
+  border: 2px;
+  border-color: #22263f;
+  border-style: solid;
+  border-image: initial;
 }
