@@ -249,6 +249,7 @@ h1 {
   display: flex;
   padding-top: 150px;
   justify-content: center;
+  width: 1000px;
   font-family: "Racing Sans One", cursive;
   font-size: 60px;
   margin-left: 70px;
@@ -257,12 +258,13 @@ h1 {
 
 .contact-container {
   display: flex;
+  padding-left: 50px;
+  margin-top: 200px;
 }
 
 .container-1 {
   width: 100px;
   height: 250px;
-  display: grid;
 }
 
 .fab {
@@ -295,6 +297,7 @@ h1 {
   border-color: #22263f;
   border-style: solid;
   border-image: initial;
+  display: block;
 }
 
 input {
