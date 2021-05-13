@@ -248,24 +248,27 @@ h1 {
 .contact-header {
   display: flex;
   padding-top: 150px;
-  justify-content: center;
+  justify-content: left;
   width: 1000px;
   font-family: "Racing Sans One", cursive;
   font-size: 60px;
-  margin-left: 70px;
+  margin-left: 750px;
   color: #22263f;
 }
 
 .contact-container {
   display: flex;
-  padding-left: 50px;
+  padding-left: 450px;
   margin-top: 200px;
+  position: relative;
 }
 
 .container-1 {
   width: 100px;
   height: 250px;
   display: grid;
+  padding-left: -50px;
+  position: absolute;
 }
 
 .fab {
