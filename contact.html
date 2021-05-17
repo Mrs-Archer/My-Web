@@ -18,10 +18,10 @@
     <header>
       <nav>
         <ul class="navigation-bar">
-          <li><a href="../My-Web/index.html">Home</a></li>
-          <li><a href="../My-Web/portfolio.html">Portfolio</a></li>
-          <li><a href="../My-Web/about.html">About</a></li>
-          <li><a href="../My-Web/contact.html">Contact</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -34,13 +34,17 @@
       </div>
       <div class="container-2"></div>
       <div class="container-3">
-        <form><label for="input-name">Name:</label><br /></form>
-        <input class="input-name" type="text" />
-        <form><label for="input-email">Email:</label><br /></form>
-        <input class="input-email" type="text" />
-        <form><label for="input-text">Text:</label><br /></form>
-        <input class="input-text" type="text" />
-        <input type="submit" />
+        <form>
+          <label for="input-name">Name:</label>
+          <input id="input-name" type="text" required />
+          <!-- the for attribute of the label has to target the id and not the class-->
+          <label for="input-email">Email:</label>
+          <input class="input-email" type="email" />
+          <label for="input-text">Text:</label>
+          <input class="input-text" type="text" />
+          <!-- Comment Should be textarea -->
+          <input type="submit" value="Send" />
+        </form>
       </div>
     </div>
     <footer></footer>
