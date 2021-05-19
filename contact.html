@@ -13,15 +13,19 @@
       href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Shrikhand&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
     <header>
       <nav>
         <ul class="navigation-bar">
-          <li><a href="../My-Web/index.html">Home</a></li>
-          <li><a href="../My-Web/portfolio.html">Portfolio</a></li>
-          <li><a href="../My-Web/about.html">About</a></li>
-          <li><a href="../My-Web/contact.html">Contact</a></li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -34,16 +38,26 @@
       </div>
       <div class="container-2"></div>
       <div class="container-3">
-        <form><label for="input-name">Name:</label><br /></form>
-        <input class="input-name" type="text" />
-        <form><label for="input-email">Email:</label><br /></form>
-        <input class="input-email" type="text" />
-        <form><label for="input-text">Text:</label><br /></form>
-        <input class="input-text" type="text" />
-        <input type="submit" />
+        <form>
+          <label for="input-name">Name:</label>
+          <input id="input-name" type="text" required />
+          <!-- the for attribute of the label has to target the id and not the class-->
+          <label for="input-email">Email:</label>
+          <input id="input-email" type="email" />
+          <label for="input-text">Text:</label>
+          <input id="input-text" type="text" />
+          <!-- Comment Should be textarea -->
+          <input type="submit" value="Send" />
+        </form>
       </div>
     </div>
     <footer></footer>
   </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+    integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
   <script src="main.js"></script>
 </html>
