@@ -247,7 +247,7 @@ h1 {
 
 .contact-header {
   display: flex;
-  padding-top: 150px;
+  padding-top: 200px;
   justify-content: left;
   width: 1000px;
   font-family: "Racing Sans One", cursive;
@@ -259,13 +259,13 @@ h1 {
 .contact-container {
   display: flex;
   padding-left: 450px;
-  margin-top: 200px;
+  margin-top: 100px;
   position: relative;
 }
 
 .container-1 {
   width: 100px;
-  height: 250px;
+  height: 450px;
   display: grid;
   padding-left: -50px;
   position: absolute;
@@ -286,16 +286,31 @@ h1 {
   padding: 0.8% 0.8% 0.8% 0.8%;
 }
 
+.fa-facebook-square {
+  color: #22263f;
+  font-size: 50px;
+  justify-content: center;
+  border: 2px;
+  border-color: #22263f;
+  background-size: 500px 500px;
+  background-color: rgb(255, 203, 157);
+  border-width: 5px;
+  border-style: solid;
+  border-image: initial;
+  border-radius: 50% 50% 50% 50%;
+  padding: 0.8% 0.8% 0.8% 0.8%;
+}
+
 .container-2 {
-  width: 200px;
-  height: 400px;
+  width: 300px;
+  height: 500px;
   background-color: rgb(255, 203, 157);
   border-radius: 50% 0% 0% 50%;
 }
 
 .container-3 {
-  width: 500px;
-  height: 400px;
+  width: 700px;
+  height: 500px;
   background-color: rgb(250 235 215);
   border-radius: 0% 10% 10% 0%;
 }
