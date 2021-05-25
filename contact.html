@@ -32,9 +32,9 @@
     <div class="contact-header">Get in Touch</div>
     <div class="contact-container">
       <div class="container-1">
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-github-square"></i>
-        <i class="fab fa-linkedin"></i>
+        <div class="fab-square"><i class="fab fa-facebook-square"></i></div>
+        <div class="fab-square"><i class="fab fa-github-square"></i></div>
+        <div class="fab-square"><i class="fab fa-linkedin"></i></div>
       </div>
       <div class="container-2"></div>
       <div class="container-3">
@@ -42,10 +42,14 @@
           <label for="input-name">Name:</label>
           <input id="input-name" type="text" required />
           <!-- the for attribute of the label has to target the id and not the class-->
-          <label for="input-email">Email:</label>
-          <input id="input-email" type="email" />
-          <label for="input-text">Text:</label>
-          <input id="input-text" type="text" />
+          <div class="email-container">
+            <label for="input-email">Email:</label>
+            <input id="input-email" type="email" />
+          </div>
+          <div class="contact-text-container">
+            <label for="input-text">Text:</label>
+            <input id="input-text" type="text" required />
+          </div>
           <!-- Comment Should be textarea -->
           <input type="submit" class="send-button" value="Send" />
         </form>
