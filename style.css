@@ -41,7 +41,6 @@ section {
 
 .home-text-box {
   display: flex;
-  width: 700px;
   height: 1010px;
   background-color: rgb(255, 218, 185);
   margin-top: -180px;
@@ -85,21 +84,14 @@ section {
   color: rgb(72 72 70);
   font-size: 25px;
   font-weight: 700;
+  margin-left: -60px;
 }
 
-.ocupation-mid {
-  color: rgb(34, 38, 63);
-  font-size: 45px;
-  font-weight: 700;
-  font-family: "Racing Sans One", cursive;
-  margin-left: 10px;
-}
 .ocupation-end {
   color: rgb(34, 38, 63);
   font-size: 45px;
   font-weight: 700;
   font-family: "Racing Sans One", cursive;
-  margin-left: 50px;
 }
 
 .home-image-box {
