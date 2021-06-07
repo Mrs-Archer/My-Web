@@ -15,6 +15,20 @@ nav li {
   margin-right: 20px;
 }
 
+.li {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.active,
+.li:hover {
+  background-color: #666;
+  color: white;
+}
+
 nav a {
   color: rgb(34, 38, 63);
   text-decoration: none;
