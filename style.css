@@ -18,15 +18,13 @@ nav li {
 .li {
   border: none;
   outline: none;
-  padding: 10px 16px;
-  background-color: #f1f1f1;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .active,
 .li:hover {
-  background-color: #666;
-  color: white;
+  background-color: rgb(245, 155, 76);
 }
 
 nav a {
@@ -145,6 +143,18 @@ section {
 footer {
   height: 50px;
   background-color: white;
+}
+
+.About-background {
+  position: relative;
+  background-color: #f9e2cd;
+  opacity: 0.4;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #f9e2cd 14px
+    ),
+    repeating-linear-gradient(#f7c98355, #f7c983);
 }
 
 .about-header {
@@ -373,8 +383,29 @@ input {
   height: 40px;
   margin-top: 40px;
   margin-left: 388px;
-  background-color: rgb(255, 203, 157);
   font-weight: bold;
   font-size: x-large;
   border-radius: 9px;
+  background-image: linear-gradient(
+    to right,
+    #ff7e5f 0%,
+    #feb47b 51%,
+    #ff7e5f 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.send-button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
